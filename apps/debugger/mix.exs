@@ -24,7 +24,7 @@ defmodule ElixirLS.Debugger.Mixfile do
 
   defp deps do
     [
-      {:elixir_sense, github: "elixir-lsp/elixir_sense"},
+      {:elixir_sense, github: "elixir-lsp/elixir_sense", branch: 'ms-improve-typespec-support'},
       {:elixir_ls_utils, in_umbrella: true}
     ]
   end
